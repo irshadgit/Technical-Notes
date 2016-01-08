@@ -1,0 +1,104 @@
+R objects 
+	
+	Importance of Data in R 
+			Staticstical computing needs data in specific format
+
+
+	Basic types 
+		numercal,character,logical
+
+	Assignment 
+		x <- 7 
+
+Data Objects in R 
+
+	Vector
+		Group of same type - Numerical,character etc
+
+		data(rivers)
+
+		rivers[10:20]
+
+		c() function 
+		rivers[c(25,35)]
+		rivers[rivers > 5]
+		x = 100:200 
+		x = c("Nimish","Arun","Unais","Vineeth")
+		z <- c(x,y)
+		
+		Named Vectors 
+			islands
+			names(x) = c("","")
+			x["name"]
+
+			km_islands <- islands * 2.59
+
+
+	Matrices and Arrays
+	
+		Matrices
+			Two dimensional arrays 
+			y = matrix(1:16, nrow=4)
+		Arrays
+
+			Is like a matrix with more than 2 dimensions
+
+					y = array(1:16, dim=c(4,2,2))
+			"dim" option gives the number of rows, columns and layers
+	Tables
+		table() - To create frequency tables or cross tabulations in a raw data ( vector, dataframe)
+		It is more like arrays / matrix
+
+		y = rnorm(100, mean=100, sd=15) 
+		tableY = table(y)
+
+		More about HairEyeColor
+			4*4*2 - Cross tablulation table
+			margin.table(HairEyeColor,c(1,3))
+	
+	List
+		Collection of other R objects collected to one place
+		items in the list are indexed by double brackets.
+		named list 
+			names(my.list)	=
+			my.list$nameKey
+
+
+	DataFrames
+		
+		Basically list :) 
+			women
+			women[c(1:10)]
+			Type of variables and all 
+				tips
+					numerical variables
+					categorical variables
+				summary()
+		race = scan(what="character")
+		my.data = data.frame(name, age, hgt, wgt, race, year, SAT)			
+
+		
+		
+
+		dim(mydataframe)
+		names(mydataframe)
+		dimnames(mydataframe)
+		Accessing Data Frame 
+			by using $
+			by using with( )
+			by using data=
+			by using attach( )
+
+	Data Frame Indexing and Row Names
+		
+		my.data[3,4] 
+		my.data[3,"wgt"]
+		my.data["3","wgt"]
+
+		rownames 
+			dataframe has rownames. When we print it is the one shows there. we can change rownames using rownames(mydataframe) <- c()
+		add new columns by
+			mydataframe$newcolumn <- c()
+		
+
+			

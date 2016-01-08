@@ -1,0 +1,6 @@
+Classes 
+
+	Class objects : Is a wrapper to the new namespace created by class.
+		Supports 2 operation
+		access reference
+		instantiation
