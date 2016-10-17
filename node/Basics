@@ -1,0 +1,33 @@
+
+
+Ref : http://book.mixu.net/ 
+Node is Single threaded
+
+CPU intensive tasks will block the flow because of this. WebWorkers are availabel to handle this.
+Node need runtime and libraries
+	runtime is the v8 java script engine which runs the code.
+	library are the default libaries included.
+
+Object and prototype in java script : http://the.knack.cafe/ 
+
+
+Scope of variables in java script :
+	Current scope is searched first and then parent and so on till global/window.
+OOP concept in js:
+	Theory of prototype model.
+
+
+Modules in node : 
+	
+Modules are managed using npm in node. 	
+	can get a module using require()
+		can be called with current path,absolute path and search
+		calling require with search will search the parent folder node_module till the root folder untill it finds one.
+
+npm : 
+	package manager. Uses package.json
+	npm init to create one 
+	npm install package-name from inside package.json will add the package to dependencies.
+	
+
+

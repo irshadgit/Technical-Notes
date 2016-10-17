@@ -1,0 +1,4 @@
+
+Event driven approach to solve blocking operations for concurrency 
+	
+	http://twistedmatrix.com/documents/8.2.0/core/howto/async.html

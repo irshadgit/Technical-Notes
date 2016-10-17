@@ -1,0 +1,14 @@
+logging module:
+
+Ref : https://docs.python.org/2/howto/logging.html#logging-basic-tutorial 
+
+Logger 
+	Exposes the interface that application code uses.
+Handler
+	Combine and send the records to files.
+Filter
+	Filter the logs
+Formatters
+	Format the logg
+
+

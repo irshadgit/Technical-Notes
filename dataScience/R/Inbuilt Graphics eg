@@ -1,0 +1,22 @@
+Plot()
+	plot(x,y,xlab="",ylab="",main="",las=)
+
+	las - LAbelStyle
+		0- Parallel to axis
+		1- Always Horizontal
+		2- Perpendicular
+		3- Always Vertical
+
+Histo Gram
+	hist(mtcars$mpg)
+	hist(mtcars$mpg, breaks=12, col="red")
+
+Pie chart 
+		slices <- c(10, 12,4, 16, 8)
+		lbls <- c("US", "UK", "Australia", "Germany", "France")
+		pie(slices, labels = lbls, main="Pie Chart of Countries")
+Bar Plot
+		counts <- table(mtcars$vs, mtcars$gear)
+		barplot(counts, main="Car Distribution by Gears and VS",
+  			xlab="Number of Gears", col=c("darkblue","red"),
+ 			legend = rownames(counts))
