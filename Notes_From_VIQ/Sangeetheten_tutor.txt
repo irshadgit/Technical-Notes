@@ -1,0 +1,35 @@
+Sangeetheten Notes
+
+
+	1- About configuring the projects to eclipse
+	
+					a)Change the folder Name webapp to resources and put it to Local Properties Data Directory
+					b)Copy the content of the resources and put it to Data Directory Directly
+					c)Extract the war downloaded
+					d)Remove the iq***.jar from eclipse and copy the src in svn
+					
+	
+	
+	2- About the interfaces
+	3- About the maeven thing
+	4- About the primitive Data type int and Int
+	
+	:)
+	
+	
+	Tutorial about the session time out thing
+	
+		Flex remote procedure calls
+			It uses BlazeDs method (NOt sure about it)
+				
+				Working
+							When a flex remote call hits the server in server inside webinf there will be an xml file called romoteconfig.xml
+							Which will map for every call what class should be called [eg:com.frameworks.mpp.netezza].
+							
+							In those function sangeetheten wrote a function to check validity of the session if valdiate(context) is null. Then it will
+							show the session time out properly. 
+							
+								Recently they have changed it to serviecepojo validateSession(context)
+								
+								:)
+								

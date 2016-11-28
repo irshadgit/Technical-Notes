@@ -1,0 +1,8 @@
+
+
+User creation mail issue
+
+		there are two types of users visualiq users in log_db
+			and rest users 
+			
+			the UMTEST= true in idatos and its attribute

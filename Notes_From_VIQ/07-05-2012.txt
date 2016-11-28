@@ -1,0 +1,29 @@
+
+Interfaces
+	Use.
+	implements key word to implement an interface
+	extends key word when u want to update the interface. When u create that users of that can relay on teh old interface or they can be-
+	updated to the new one with the new interfaces added
+super keyword
+	To call the super class constructer/
+	
+	
+	
+Started Flex 
+	imported swc file from hudson to flash builder
+	and done some steps before starting project [ Adding root file and all and setting up output folder and all]
+	
+	
+	
+	Interaction of swf files in web applications
+			User request for server page
+			1	->	page contains the java,php codes which can use system resources directly
+			2	->	Data is then added into an html page and it is send back to the sever
+			
+			Flex comes in 2 the swf file which is compiled by flash player is send to client lap top embedded in html code
+			Once the client gets the swf file it can communicate to the server directly without server requests and all other stuff
+			
+	What is prespective 
+	
+	fxp files - flex builder project files
+	

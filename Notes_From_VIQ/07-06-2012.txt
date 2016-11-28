@@ -1,0 +1,6 @@
+All functions in the DAOs come only via IQService and IQServicepojo
+
+From IQServicePojo it should be deligated to the appropriate manager and all using the properties file and all
+
+In DAO we do the core code :)
+	

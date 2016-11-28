@@ -1,0 +1,31 @@
+IQSEO Tags
+
+	Script to enhance double click's cookie data for client
+	Clients are atnt,Sungivity etc
+	They will put this script in theire web site and will enhance double clicks info
+	
+
+Com Score Charts
+	Just a chart for 
+	
+	
+	
+	
+Flex
+	Every non ui things should be declared in mxml <fs:Declaration />
+	
+	Data binding
+		We can bind data to any components by giving values inside a "{}" . U can type what values should be shown eg- "{textType1.text}"
+		
+	Retrieving Data
+		There are 3 methods to get data to flex.	
+			1-HTTP servieces
+			2-Web service
+			3-Remote Object
+	Events
+		
+		Events are signals from the applications to the flash player to perform some action
+		2 types of events
+			1-System Events
+			2-User Events
+			

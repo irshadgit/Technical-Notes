@@ -1,0 +1,33 @@
+
+grunt - for build 
+picaso grunt builds everything into dist folder 
+
+stage and release folder ---- release contains minified folders - stage is same as dist 
+
+
+page - contains application right now product and ui builder 
+
+grunt p - to build only picaso folders 
+grunt c - to build components only
+grunt f - 
+
+
+
+add widget in picasso_components 
+	copy all required meta.json,main.json style and view.html from template folder of components to get basic template of all the files 
+	grunt cc to build the component only
+	go to uibuilder click build components
+	u will see 
+	
+
+	By default this.getData() calls onData if we want we can do that 
+	check the widget for more info 
+	
+	git stash 
+	git config -l 
+	git stash pop 
+	
+	Use step wizard to create wizard 
+		It has sections object in meta.json 
+	Use saveConfiguration to save the dashboard configuration 
+	

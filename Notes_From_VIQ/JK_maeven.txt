@@ -1,0 +1,41 @@
+Setting up maeven
+
+	When we type the command specified in  the apaceh site it will create the pom.xml for our project
+	
+	unit test cases in maven
+			We can write the logic of test cases of our project buy specifying test case. In maeven using mvn test command
+			It will say whether it is failed or succes
+			eg: For cost management if i write corresponding test case.java it maeven will check using the test case against corresponding project
+	mvn package to create the war file
+	
+			First run mvn package from the main pom.xml directory
+			Check which all files are missing
+			Get the corresponding files from the server and download those to local maeven
+					Maeven wont be having some jars which are required
+								A script under our server will do the stuffs
+								
+	You will get the war file then :)
+	
+	
+	
+	Detailed Exp:ref:http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+	
+	
+	
+	Maeven build is consist of lifecycles
+				default: Deploy the project
+				clean: Clean the created project and prepare for new project
+				site:Documentation part mainly
+
+		Each lifecycles consist of Phases
+				
+				validate
+				compile
+				test
+				package
+				integerateion test
+				verify
+				install
+				deploy
+				
+				

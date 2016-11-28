@@ -1,0 +1,8 @@
+Mrgeo :
+
+	Its a framework to process raster/vector data in hadoop ecosystem.
+
+Installation : 
+	Dependencies : 
+		Need to install opencvs + gdal with java libraries ( Ref : https://github.com/VertNet/reproject/wiki/GDAL-Java-Bindings )
+	

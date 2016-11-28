@@ -1,0 +1,9 @@
+Flex stuffs
+
+	Event handling
+		Can be handled in mxml component itself - Eg:Of that start date and end date
+		Also using event listners in action script 
+			Target and Current target
+				Target object always throws the evnet
+				Current target object always handles the event
+				

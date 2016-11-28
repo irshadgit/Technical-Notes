@@ -1,0 +1,54 @@
+VIQ code works
+
+	We have all the code in svn server
+	Hudson will take care of building the code. Hudson will build the project using maeven or something
+
+When we copying to our local system
+
+	Should take the war from hudson by downloading the war file
+				Should go to the server http://10.200.13.49:8181/ for hudson
+				Go to the project 
+				Download the war 
+						Go to the hudson server
+						Check the version
+						workspace
+						iq/target/ u will find the war
+						
+	Export the war file to eclipse
+	
+	There wont be any codes in the src since its war file. Inorder to get the codes 
+		Copy paste the codes from svn to the com in eclipse
+			Go to the directry in svn where the codes resides for that particular app usually version no/iq-resources/src/main/java [Exclude the conf folder]
+			
+	After that run it on the server and configure it properly
+		According to the errors showing up do the changes
+			Eg: Client.properties may dont have version= the client name etc
+			Because of the building difference [Hudson and eclipse] there will be some change fix those also
+			
+
+	
+	
+	
+	
+	
+VIQ Code structure
+
+					Code starts with IQServieces.java
+					
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+Eclipse shortcut
+					To open the function list 	ctrl+o
+					To find for a particular file ctrl+shift+r
+				
+				
+				
+				

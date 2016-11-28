@@ -1,0 +1,27 @@
+Class Loading
+
+
+	Bootstrap Loader
+					Will be loading classes which are necessary for JVM eg:rt.jar
+	Extension Loader
+					Its actually JRE. We can see JRE and JDK while installing JVM. We can specify the jars which are 
+	System Class Loader
+					Loads the classes which are given in the class path
+	
+	
+	
+	Tomcat
+	
+		If there are 10 wars which has got 10 different jars or class loading those common classes from each jars are time consuming
+			For that we can use shared library.
+
+
+
+
+Maeven
+
+	Maeven has a project build structure discibed in .project file in maeven project
+
+	Eclipse uses ant project structure
+	Using subclipse we can sync svn project with eclipse
+	Using 

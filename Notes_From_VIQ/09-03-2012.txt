@@ -1,0 +1,6 @@
+Issue - Initial dashboard Not loading
+
+	Under the db there will be table tbl_left_nav in it the id column should be 
+	like I2.1 [I for hierarchy and the following digits defines the oder
+
+		

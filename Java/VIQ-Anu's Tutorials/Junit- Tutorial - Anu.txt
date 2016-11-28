@@ -1,0 +1,23 @@
+Tdd
+	
+@test
+
+Life cycle 
+
+	@before class - First execution . Uses to set varialbes and objects
+	@before - Specific for each test . Used to create things specific for a particular test case
+	@test - Logic
+	@after - Used to clear the objects and variables seted in @before class 
+	@before class 
+	
+	
+Org.junit.roomer.JunitCore 
+	Will search for @test, @test Suite - Higher level testing 
+Can be run by command line or in IDE
+
+Assertion 
+	Asser.equals
+	Asser.same
+	asser.null
+	fail()
+	

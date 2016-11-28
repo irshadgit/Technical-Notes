@@ -1,0 +1,9 @@
+
+
+Unit testing consist of 
+1- Testing framework
+2- Stub
+3- Assert 
+
+http://fredkschott.com/post/2014/05/nodejs-testing-essentials/
+http://bulkan-evcimen.com/using_mockery_to_mock_modules_nodejs.html

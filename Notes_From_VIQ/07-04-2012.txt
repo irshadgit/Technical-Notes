@@ -1,0 +1,14 @@
+From JK
+
+The layered structure of VIQ codes
+		Controller -> Services -> DAO -> DB
+		
+		Controller- Everything should pass through this
+		DAO -> Should thorow IQPException
+		Services -> Only throws IQSException
+
+What is Class.forname() method
+		Creating objects dynamically
+		
+		Class<classname> - Checks that class is of type classname
+		

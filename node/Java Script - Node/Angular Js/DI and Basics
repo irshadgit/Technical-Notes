@@ -1,0 +1,58 @@
+
+https://docs.angularjs.org/tutorial/
+1- Data binding 2 way : 
+2- Template controller scope : 
+
+
+Dependency injection : 
+	Services can be injected to controller while initilizing.
+	Tackling minification : 
+		2 ways we can tackle minifying issue on putting services as just argument to controller constructors.
+			1- Use $inject propery and assaign array list of string for services needed.
+			2- Use constructor as list of services and then function.
+
+		ng-src directirve prevent get request with angular expression initially before initialising.
+		It will happen if we add just src instead of ng-src
+
+
+	DI bit deep : https://github.com/angular/angular.js/wiki/Understanding-Dependency-Injection
+
+		1- Custom service can be created using providers.
+		2- Services can be injected to injectable functions : 
+			Controllers.
+		3- Can get providers by 
+			myMod.config(function($provide){
+			$provide.provider('greeting',function(){
+			this.$get = function(){return function(name){
+			alert('Alerting issss'+name);
+			};
+			};
+			});
+			});
+
+			More easy ways to avoid get we can use factory,service and value services.
+		4- Injector : 
+			One who instantiates and supplies services using providers.
+			Can get hold of by $injector. It knows to inject itself. 
+
+				To get $injector just use $injector to any injectoble functions.
+			Injectable Functions : 
+				Functions which can inject services to argument are called injectable functions. $injector does this task as follows using invoke function.
+
+					var myFunction = function(greeting) {
+  						greeting('Ford Prefect');
+						};
+						$injector.invoke(myFunction);
+
+			myMod.controller('mycontroller',function($injector){
+				$injector.get('myService');
+			}));
+
+		5- Config and run : 
+			app goes through 2 phases config phase and run phase.
+			config phase initialises filters,expression etc.
+			run just execute the app.
+			can inject only providers for the service to config functions. Services cannot becuase theya have not been created.
+
+			We can customize services using config phase. That is why there is a way of adding provider in config function.
+	

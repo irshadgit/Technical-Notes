@@ -1,0 +1,5 @@
+Sumitheten about SPBU
+
+	first it will fetch joibid form job_master table for a particular client_id
+	
+	after that it will fetch the data for that jobid from the table 
