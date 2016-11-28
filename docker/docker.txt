@@ -1,0 +1,11 @@
+What is docker ? 
+Difference between vm and docker 
+
+Ref : https://blog.talpor.com/2015/01/docker-beginners-tutorial/
+
+
+image & Containers
+volumes & Links
+
+
+

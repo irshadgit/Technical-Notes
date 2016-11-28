@@ -1,0 +1,8 @@
+Hoisting concept in java script.
+	variables used inside functions will get declared on top of functions.
+
+Temporal dead spot concept
+
+
+Template literals
+

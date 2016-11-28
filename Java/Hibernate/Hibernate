@@ -1,6 +1,0 @@
-Hibernate 
-	configuration file and mapping files 
-	cascade -- save-update delete delete-orphan 
-	inverse = true / false ----
-	association --- one to one , one to many , many to many 
-	fetching strategies for collections 

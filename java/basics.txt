@@ -1,0 +1,10 @@
+Java is Pass by value 
+		http://www.javaranch.com/campfire/StoryPassBy.jsp
+		http://www.javaranch.com/campfire/StoryCups.jsp
+
+
+Check out this 
+	http://www.javaranch.com/campfire.jsp
+
+Mutable and Immutalble objects
+	http://www.javaranch.com/journal/2003/04/immutable.htm

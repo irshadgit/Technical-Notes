@@ -1,5 +1,0 @@
-Http Methods :  Ref : http://www.tutorialspoint.com/http/http_methods.htm
-	OPTIONS : 
-		Request to get the supported http methods. Server will respond with supported methods.
-	TRACE : 
-		Used for debugging. This will be having the http request to which it is requested in the body.
